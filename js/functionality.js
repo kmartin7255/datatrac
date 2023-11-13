@@ -714,7 +714,7 @@ function refreshData() {
             iconFilename = "icon-home-black.svg";
           }
           if (prod_class_underscored == "home_equity") {
-            iconFilename = "icon-home-black.svg";
+            src= "https://uploads-ssl.webflow.com/654bc61af871f2204b47d797/654bc61af871f2204b47da1f_Icon%20Container-3.svg";
           }
           if (prod_class_underscored == "credit_card") {
             iconFilename = "icon-creditcard-black.svg";
