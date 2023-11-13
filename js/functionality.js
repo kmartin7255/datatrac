@@ -561,7 +561,7 @@ function sortProds() {
     }
     $(this)
       .find(".badge_text .highlight")
-      .append("<sup class='tooltip-info-'><span>i</span></sup>");
+      .append("<sup class='tooltip-info-icon'><span>i</span></sup>");
   });
 }
 
@@ -638,7 +638,7 @@ function refreshData() {
           var savings_chunks = product.SavingsOrEarningsText.split("up to ");
           var savingsAmount = savings_chunks[1];
 
-          var apyApr = "APR<sup class='tooltip-info-'><span>i</span></sup>";
+          var apyApr = "APR<sup class='tooltip-info-icon'><span>i</span></sup>";
           var lowerHigher = "lower";
 
           var verifiedDateRaw = product.Verified_As_Of;
@@ -657,7 +657,7 @@ function refreshData() {
             ".</span>";
 
           if (product.ProductType === "deposit") {
-            apyApr = "APY<sup class='tooltip-info-'><span>i</span></sup>";
+            apyApr = "APY<sup class='tooltip-info-icon'><span>i</span></sup>";
             lowerHigher = "higher";
           }
 
@@ -702,7 +702,7 @@ function refreshData() {
 
           var prodTerm = product.Term;
 
-          // --------- POPULATE ROUND BADGE CONTENT,  ---------
+          // --------- POPULATE ROUND BADGE CONTENT, ICON ---------
 
           // get correct icon image - /img/icon-car-white.svg
           var iconFilename = "icon-car-black.svg";
@@ -711,10 +711,10 @@ function refreshData() {
             iconFilename = "icon-car-black.svg";
           }
           if (prod_class_underscored == "mortgage") {
-<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M511.8 287.6H576V240L288.4 0 0 240v47.6H64.1V512H224V352H352V512H512.8l-1-224.4z"/></svg>
+            iconFilename = "icon-home-black.svg";
           }
           if (prod_class_underscored == "home_equity") {
-<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M511.8 287.6H576V240L288.4 0 0 240v47.6H64.1V512H224V352H352V512H512.8l-1-224.4z"/></svg>;
+            iconFilename = "icon-home-black.svg";
           }
           if (prod_class_underscored == "credit_card") {
             iconFilename = "icon-creditcard-black.svg";
