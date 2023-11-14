@@ -745,7 +745,7 @@ function refreshData() {
           }
           $("#" + new_content_id + " .icon")
             .addClass("js_mod")
-            .attr(https://assets-global.website-files.com/64bf1bfe9dd2829c62827f52/ + iconFilename);
+            .attr("https://assets-global.website-files.com/64bf1bfe9dd2829c62827f52/" + iconFilename);
 
           // populate the tooltips here
           // populate details link footnote - get <FootNoteText> from feed
