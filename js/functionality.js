@@ -711,7 +711,7 @@ function refreshData() {
             iconFilename = "icon-car-black.svg";
           }
           if (prod_class_underscored == "mortgage") {
-            iconFilename = "653876ee7ea12fc45f232858_icon-cd.svg";
+            iconFilename = "icon-home-black.svg";
           }
           if (prod_class_underscored == "home_equity") {
             iconFilename = "icon-home-black.svg";
@@ -745,7 +745,7 @@ function refreshData() {
           }
           $("#" + new_content_id + " .icon")
             .addClass("js_mod")
-            .attr("src", + iconFilename);
+            .attr("src", "img/" + iconFilename);
 
           // populate the tooltips here
           // populate details link footnote - get <FootNoteText> from feed
