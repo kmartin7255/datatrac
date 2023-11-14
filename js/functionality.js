@@ -705,7 +705,7 @@ function refreshData() {
           // --------- POPULATE ROUND BADGE CONTENT, ICON ---------
 
           // get correct icon image - /img/icon-car-white.svg
-          var iconFilename = "https://cdn.statically.io/gh//kmartin7255/datatrac/main/img/icon-home-black.svg";
+          var iconFilename = "https://uploads-ssl.webflow.com/654bc61af871f2204b47d797/654bc61af871f2204b47da6a_Icon%20Container-39.svg";
 
           if (prod_class_underscored == "auto") {
             iconFilename = "icon-car-black.svg";
