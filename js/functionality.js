@@ -4,7 +4,7 @@ var product_classes = [
   "credit+card",
   "mortgage",
   "unsecured",
-  "home+equit
+  "home+equity",
   "cd",
   "checking",
   "rv",
