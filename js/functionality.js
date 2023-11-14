@@ -134,7 +134,7 @@ jQuery(document).ready(function ($) {
   // get today's date, get the proper dated GRA seal
   var today_short = mm + dd + yyyy;
   $(".gra_seal").attr(
-    "https://dfcu-d67fbdb72b21ad4dfb05b6a6ef8cadc8.webflow.io/",
+    "src",
     "https://delivery.datatrac.net/content/seals/Seal-" +
       today_short +
       "-300.png"
