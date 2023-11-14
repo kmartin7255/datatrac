@@ -711,7 +711,7 @@ function refreshData() {
             iconFilename = "icon-car-black.svg";
           }
           if (prod_class_underscored == "mortgage") {
-            iconFilename = "https://assets-global.website-files.com/654bc61af871f2204b47d797/654bc61af871f2204b47da6a_Icon%20Container-39.svg";
+            iconFilename = "https://assets-global.website-files.com/64bf1bfe9dd2829c62827f52/653876ee7ea12fc45f232858_icon-cd.svg";
           }
           if (prod_class_underscored == "home_equity") {
             iconFilename = "icon-home-black.svg";
