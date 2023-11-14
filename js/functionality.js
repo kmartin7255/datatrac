@@ -4,7 +4,7 @@ var product_classes = [
   "credit+card",
   "mortgage",
   "unsecured",
-  "home+equity",
+  "home+equit
   "cd",
   "checking",
   "rv",
@@ -711,7 +711,7 @@ function refreshData() {
             iconFilename = "icon-car-black.svg";
           }
           if (prod_class_underscored == "mortgage") {
-            iconFilename = "https://assets-global.website-files.com/64bf1bfe9dd2829c62827f52/653876ee7ea12fc45f232858_icon-cd.svg";
+            iconFilename = "653876ee7ea12fc45f232858_icon-cd.svg";
           }
           if (prod_class_underscored == "home_equity") {
             iconFilename = "icon-home-black.svg";
@@ -745,7 +745,7 @@ function refreshData() {
           }
           $("#" + new_content_id + " .icon")
             .addClass("js_mod")
-            .attr("src", "img/" + iconFilename);
+            .attr(https://assets-global.website-files.com/64bf1bfe9dd2829c62827f52/ + iconFilename);
 
           // populate the tooltips here
           // populate details link footnote - get <FootNoteText> from feed
