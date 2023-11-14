@@ -13,6 +13,7 @@ var product_classes = [
   "savings",
 ];
 
+
 var market_ids 			= [17489,17718];
 var default_mkt_id 		= 17489;
 
