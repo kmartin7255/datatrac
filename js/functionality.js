@@ -13,7 +13,6 @@ var product_classes = [
   "savings",
 ];
 
-
 var market_ids 			= [17489,17718];
 var default_mkt_id 		= 17489;
 
@@ -746,7 +745,7 @@ function refreshData() {
           }
           $("#" + new_content_id + " .icon")
             .addClass("js_mod")
-            .attr("src" + iconFilename);
+            .attr("src", "img/" + iconFilename);
 
           // populate the tooltips here
           // populate details link footnote - get <FootNoteText> from feed
