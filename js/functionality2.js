@@ -21,51 +21,51 @@ var company_website = "http://www.direct.com";
 var company_rates_url = "https://info.direct.com/leading-cd-rates?_ga=2.37172261.469041830.1661359469-1163728750.1659625230";
 
 var cta_url_auto = "https://info.direct.com/vehicle-memberquestion";
-var cta_txt_auto = "Apply Now";
+var cta_txt_auto = "Get Started";
 var rates_url_auto = "https://info.direct.com/auto-loans?#page-block-fsxj3inc64r";
 
 var cta_url_mortgage = "https://directfederal.mymortgage-online.com/";
-var cta_txt_mortgage = "Apply Now";
+var cta_txt_mortgage = "Get Started";
 var rates_url_mortgage = "https://info.direct.com/mortgage-rates-fixed-adjustable#page-block-fsxj3inc64r";
 
 var cta_url_homeequity = "https://info.direct.com/homeequitymemberquestion";
-var cta_txt_homeequity = "Apply Now";
+var cta_txt_homeequity = "Get Started";
 var rates_url_homeequity = "https://info.direct.com/homeequity";
 
 var cta_url_creditcard = "https://info.direct.com/creditcardmemberquestion";
-var cta_txt_creditcard = "Apply Now";
+var cta_txt_creditcard = "Get Started";
 var rates_url_creditcard = "https://info.direct.com/credit-card?#page-block-kj8yvwkprdp";
 
 var cta_url_boat = "https://info.direct.com/vehicle-memberquestion";
-var cta_txt_boat = "Apply Now";
+var cta_txt_boat = "Get Started";
 var rates_url_boat = "https://info.direct.com/auto-loans?#page-block-fsxj3inc64r";
 
 var cta_url_rv = "https://info.direct.com/vehicle-memberquestion";
-var cta_txt_rv = "Apply Now";
+var cta_txt_rv = "Get Started";
 var rates_url_rv = "https://info.direct.com/auto-loans?#page-block-fsxj3inc64r";
 
 var cta_url_unsecured = "https://info.direct.com/pl-memberquestion";
-var cta_txt_unsecured = "Apply Now";
+var cta_txt_unsecured = "Get Started";
 var rates_url_unsecured = "https://www.direct.com/borrow/Personal_Loans.cfm";
 
 var cta_url_moneymarket = "https://info.direct.com/mm-memberquestion";
-var cta_txt_moneymarket = "Apply Now";
+var cta_txt_moneymarket = "Get Started";
 var rates_url_moneymarket = "https://info.direct.com/money-market-account?#page-block-oakiyfi7g6";
 
 var cta_url_savings = "https://info.direct.com/cd-member-question";
-var cta_txt_savings = "Apply Now";
+var cta_txt_savings = "Get Started";
 var rates_url_savings = "https://www.direct.com/bank/savings-accounts.cfm";
 
 var cta_url_checking = "https://info.direct.com/hub-memberquestion";
-var cta_txt_checking = "Apply Now";
+var cta_txt_checking = "Get Started";
 var rates_url_checking = "https://info.direct.com/hub-checking";
 
 var cta_url_cd = "https://info.direct.com/cd-member-question";
-var cta_txt_cd = "Apply Now";
+var cta_txt_cd = "Get Started";
 var rates_url_cd = "https://info.direct.com/leading-cd-rates?#page-block-jtbrcgbtl6";
 
 var cta_url_ira = "https://info.direct.com/cd-member-question";
-var cta_txt_ira = "Apply Now";
+var cta_txt_ira = "Get Started";
 var rates_url_ira = "https://info.direct.com/leading-cd-rates?#page-block-jtbrcgbtl6";
 
 // Jan 10, 2023 - ability to pass in prod classes, markets via URL param,
