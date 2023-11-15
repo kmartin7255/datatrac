@@ -417,7 +417,7 @@
 }
 .dt_api .footer_row, 
 .dt_api .credit_dt a, .dt_api .footnotes p {
-	color: var(--dt-primary);
+	color: var(--dt-slide-bg-color);
 }
 @keyframes sk-bounce {
 	0%, 100% {
