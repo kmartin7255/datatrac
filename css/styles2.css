@@ -6,12 +6,14 @@
 	--dt-bg-transparent-color: #c5b9acff;
 	--dt-slide-bg-color: #082856;
 	--dt-white: #ffffff;
-	--dt-theme-font-family: 'Montserrat', sans-serif;
-	--dt-theme-font-family-condensed: 'Barlow Condensed', sans-serif;
+	--dt-theme-font-family:
+	'Montserrat', sans-serif;
+	--dt-theme-font-family-condensed:
+	'Barlow Condensed', sans-serif;
 	--dt-product-header: #ffffff;
 	--dt-product-subheader: #ffffff;
-	--dt-product-bar: #005aa3;
-006a8e
+	--dt-product-bar: #cacaca;
+
 }
 
 /**
@@ -130,16 +132,16 @@
     line-height: 1.2;
     font-family: var(--dt-theme-font-family);
     /* font-size: 13px; */
-	font-weight: 400;
+	font-weight: 600;
     text-transform: capitalize;
 }
 .dt_api .highlight {
 	color: var(--dt-primary);
 	font-weight: 600;
-    font-size: 20px;
+    font-size: 16px;
 }
 .dt_api .badge_text .savings_amt {
-	font-size: 175%;
+	font-size: 200%;
 }
 .dt_api .type_deposit .badge_text .highlight {
 	/* font-size: 160%; */
@@ -415,7 +417,7 @@
 }
 .dt_api .footer_row, 
 .dt_api .credit_dt a, .dt_api .footnotes p {
-	color: var(--dt-product-bar);
+	color: var(--dt-primary);
 }
 @keyframes sk-bounce {
 	0%, 100% {
@@ -429,7 +431,7 @@
 }
 .dt_api {
 	font-family: var(--dt-theme-font-family);
-	font-weight: 300;
+	font-weight: 600;
 	font-style: normal;
 	color: black;
 }
@@ -596,7 +598,7 @@
 	display: none;
 	background-color: var(--dt-slide-bg-color);
 	padding: 30px 10px;
-    border-radius: 20px;
+	border-radius: 20px;
 	box-shadow: 0px 0px 8px var(--dt-inset-shadow-color) inset;
 }
 
@@ -739,7 +741,7 @@
 }
 .dt_api .bar_label span {
 	font-family: var(--dt-theme-font-family);
-	font-weight: 600;
+	font-weight: 1000;
 	color: var(--dt-product-bar);
 	/* padding: .5rem 0; */
 	padding: 0;
@@ -756,7 +758,7 @@
 	color: white;
 }
 .dt_api .bar .rate_fi, .dt_api .bar .rate_mkt {
-	font-weight: 700;
+	font-weight: 600;
 }
 .dt_api .rate_bars {
 	width: 100%;
@@ -786,8 +788,8 @@
 	/* padding-bottom: 20px; */
 }
 .dt_api .rate_bars_labels .bar_label {
-	font-size: 12px;
-    line-height: 1.375;
+	font-size: 14px;
+	line-height: 1.375;
 	font-weight: 400;
 }
 .dt_api .bars_active.type_loan .rate_bar.mkt, .dt_api .bars_active.type_deposit .rate_bar.fi, .dt_api .bars_active.type_loan .rate_bar.fi, .dt_api .bars_active.type_deposit .rate_bar.mkt {
@@ -868,7 +870,7 @@
 	text-align: left;
 }
 .dt_api h1.intro_header {
-	font-weight: 400;
+	font-weight: 600;
 	font-family: var(--dt-theme-font-family-condensed);
 	color: var(--dt-primary);
 	text-align: center;
