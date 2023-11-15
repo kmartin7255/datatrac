@@ -6,7 +6,7 @@
 	--dt-bg-transparent-color: #c5b9acff;
 	--dt-slide-bg-color: #082856;
 	--dt-white: #ffffff;
-	--dt-theme-font-family: 'Poppins', sans-serif;
+	--dt-theme-font-family: 'Montserrat', sans-serif;
 	--dt-theme-font-family-condensed: 'Barlow Condensed', sans-serif;
 	--dt-product-header: #ffffff;
 	--dt-product-subheader: #ffffff;
@@ -130,16 +130,16 @@
     line-height: 1.2;
     font-family: var(--dt-theme-font-family);
     /* font-size: 13px; */
-	font-weight: 600;
+	font-weight: 400;
     text-transform: capitalize;
 }
 .dt_api .highlight {
 	color: var(--dt-primary);
-	font-weight: 700;
+	font-weight: 600;
     font-size: 20px;
 }
 .dt_api .badge_text .savings_amt {
-	font-size: 200%;
+	font-size: 175%;
 }
 .dt_api .type_deposit .badge_text .highlight {
 	/* font-size: 160%; */
