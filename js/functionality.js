@@ -746,7 +746,7 @@ function refreshData() {
           }
           $("#" + new_content_id + " .icon")
             .addClass("js_mod")
-            .attr("https://cdn.statically.io/gh/kmartin7255/datatrac/main/img/" + iconFilename);
+            .attr("src", "img/" + iconFilename);
 
           // populate the tooltips here
           // populate details link footnote - get <FootNoteText> from feed
