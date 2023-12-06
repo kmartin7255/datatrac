@@ -18,23 +18,23 @@ var market_ids 			= [17489,17718];
 var default_mkt_id 		= 17718;
 
 var company_website = "http://www.direct.com";
-var company_rates_url = "https://info.direct.com/leading-cd-rates?_ga=2.37172261.469041830.1661359469-1163728750.1659625230";
+var company_rates_url = "https://dfcu.webflow.io/";
 
-var cta_url_auto = "https://info.direct.com/vehicle-memberquestion";
+var cta_url_auto = "https://dfcu.webflow.io/borrow/vehicle-loans";
 var cta_txt_auto = "Get Started";
-var rates_url_auto = "https://info.direct.com/auto-loans?#page-block-fsxj3inc64r";
+var rates_url_auto = "https://dfcu.webflow.io/borrow/vehicle-loans";
 
-var cta_url_mortgage = "https://directfederal.mymortgage-online.com/";
+var cta_url_mortgage = "https://dfcu.webflow.io/borrow/mortgages";
 var cta_txt_mortgage = "Get Started";
-var rates_url_mortgage = "https://info.direct.com/mortgage-rates-fixed-adjustable#page-block-fsxj3inc64r";
+var rates_url_mortgage = "https://dfcu.webflow.io/borrow/mortgages";
 
-var cta_url_homeequity = "https://info.direct.com/homeequitymemberquestion";
+var cta_url_homeequity = "https://dfcu.webflow.io/borrow/home-equity";
 var cta_txt_homeequity = "Get Started";
-var rates_url_homeequity = "https://info.direct.com/homeequity";
+var rates_url_homeequity = "https://dfcu.webflow.io/borrow/home-equity";
 
-var cta_url_creditcard = "https://info.direct.com/creditcardmemberquestion";
+var cta_url_creditcard = "https://dfcu.webflow.io/borrow/credit-cards";
 var cta_txt_creditcard = "Get Started";
-var rates_url_creditcard = "https://info.direct.com/credit-card?#page-block-kj8yvwkprdp";
+var rates_url_creditcard = "https://dfcu.webflow.io/borrow/credit-cards";
 
 var cta_url_boat = "https://info.direct.com/vehicle-memberquestion";
 var cta_txt_boat = "Get Started";
@@ -44,13 +44,13 @@ var cta_url_rv = "https://info.direct.com/vehicle-memberquestion";
 var cta_txt_rv = "Get Started";
 var rates_url_rv = "https://info.direct.com/auto-loans?#page-block-fsxj3inc64r";
 
-var cta_url_unsecured = "https://info.direct.com/pl-memberquestion";
+var cta_url_unsecured = "https://dfcu.webflow.io/borrow/personal-loans";
 var cta_txt_unsecured = "Get Started";
-var rates_url_unsecured = "https://www.direct.com/borrow/Personal_Loans.cfm";
+var rates_url_unsecured = "https://dfcu.webflow.io/borrow/personal-loans";
 
-var cta_url_moneymarket = "https://info.direct.com/mm-memberquestion";
+var cta_url_moneymarket = "https://dfcu.webflow.io/bank/money-market-accounts";
 var cta_txt_moneymarket = "Get Started";
-var rates_url_moneymarket = "https://info.direct.com/money-market-account?#page-block-oakiyfi7g6";
+var rates_url_moneymarket = "https://dfcu.webflow.io/bank/money-market-accounts";
 
 var cta_url_savings = "https://info.direct.com/cd-member-question";
 var cta_txt_savings = "Get Started";
@@ -60,9 +60,9 @@ var cta_url_checking = "https://info.direct.com/hub-memberquestion";
 var cta_txt_checking = "Get Started";
 var rates_url_checking = "https://info.direct.com/hub-checking";
 
-var cta_url_cd = "https://info.direct.com/cd-member-question";
+var cta_url_cd = "https://dfcu.webflow.io/bank/cd-share-certificates";
 var cta_txt_cd = "Get Started";
-var rates_url_cd = "https://info.direct.com/leading-cd-rates?#page-block-jtbrcgbtl6";
+var rates_url_cd = "https://dfcu.webflow.io/bank/cd-share-certificates";
 
 var cta_url_ira = "https://info.direct.com/cd-member-question";
 var cta_txt_ira = "Get Started";
